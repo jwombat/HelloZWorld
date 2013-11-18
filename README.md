@@ -11,12 +11,9 @@ INSTALLATION
 
 Start a new project in Unity. Import the ZSCore and ZSUtility packages per zSpace instructions. Then import the Hello Z World package. Ignore any complaints from Unity during this process.
 
-Open the Hello Z World scene.
+Open the Hello Z World scene. Go to the Edit menu, select Project Settings, and Player. Look in the lower part of the window and change the API Compatibility Level setting to .NET 2.0. Unity will complain; ignore it. Now quit Unity - saving the document - and restart; this is the easiest way to trigger a recompile.
 
-Now drag a ZSCore prefab into the Hierarchy and connect the camera to it, per zSpace instructions. Drag a ZSStylusSelector prefab into the Hierarchy. Expand that object and delete the SplineTool. Unity will complain about you trying to do this; do it.
-Then go to Edit, select Project Settings and Player. Look in the lower part of the window and change the API Compatibility Level setting to .NET 2.0. Unity will complain; ignore it.
-
-Now quit Unity - saving the document - and restart; this is the easiest way to trigger a recompile. Select Main Camera and connect the ZSStylusSelector to the Stylus field. At this point Unity will be satisfied and you can start working with the project.
+Now drag a ZSCore prefab into the Hierarchy and connect the camera to it, per zSpace instructions. Drag a ZSStylusSelector prefab into the Hierarchy. Expand that object and delete the SplineTool. Unity will complain about you trying to do this; just do it. Select Main Camera and connect the ZSStylusSelector to the Stylus field. At this point Unity will be satisfied and you can start working with the project.
 
 USAGE
 
